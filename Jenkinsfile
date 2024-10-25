@@ -10,6 +10,7 @@ pipeline {
 
             }
         }
+        }
         
     stage('Verify deployment') {
             steps {
@@ -19,4 +20,5 @@ pipeline {
             }
         }
     }
+}
 }
